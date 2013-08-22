@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string-array name="fragment_item">
+        <item>Articles</item>
+        <item>Depenses</item>
+        <item>Recettes</item>
+        <item>Bilan</item>
+    </string-array>
+    
     <string name="app_name">SmartPocket</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="idarticle">ID de l\'article</string>
+    <string name="namearticle">Nom de l\'article</string>
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
 
 </resources>

@@ -1,6 +1,6 @@
 package com.smartpocket.android.model;
 
-public class Articles {
+public class Article {
 
 	private String idArticle;
 	private String nomArticle;

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:id="@+id/articleform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp" >
+        
+    	<LinearLayout
+            android:id="@+id/v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+		        
+		        <EditText 
+		            android:id="@+id/idarticle"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:ems="10"
+		            android:inputType="text"
+		            android:imeOptions="actionDone"
+		            android:hint="@string/idarticle" />
+		        
+		        <EditText 
+		            android:id="@+id/namearticle"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:ems="10"
+		            android:inputType="text"
+		            android:imeOptions="actionDone"
+		            android:hint="@string/namearticle" />
+		        
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		                android:layout_width="match_parent"
+		                android:layout_height="0dip"
+		                android:layout_marginBottom="10dp"
+		                android:layout_marginTop="10dp"
+		                android:layout_weight="1" >
+		
+		                <Button
+		                    android:id="@+id/bt_cancel"
+		                    android:layout_width="0dp"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="1"
+		                    android:text="@string/cancel" />
+		
+		                <Button
+		                    android:id="@+id/bt_save"
+		                    android:layout_width="0dp"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="1"
+		                    android:text="@string/save" />
+		    </LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dip"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="10dp"
+         android:background="#FFFFFF"
+         android:layout_weight="1" >
+
+         <ListView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:id="@+id/articlelist" />
+
+	</LinearLayout>
+    
+    
+    
+</LinearLayout>
